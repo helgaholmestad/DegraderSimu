@@ -1,0 +1,40 @@
+   
+  //  G4VSolid* cellSolid = new G4Box("Cell_Solid", // Name                                                             
+  // 				  (SiliconThickness/2),         // x half length                                                    
+  // 				  (ypixel_pitch/2.0),         // y half length                                                    
+  // 				  (xpixel_pitch/2.00));      // z half length                                                    
+ 
+  // G4LogicalVolume* cellLogical   
+  //   = new G4LogicalVolume(cellSolid,       // Solid                                                                 
+  // 			  SiliconMaterial,             // Material                                                              
+  //                         "Cell_Logical"); // Name                                                                  
+
+  
+  //  G4VSolid* stripSolid = new G4Box("strip_Solid", // Name                                                             
+  // 				  (SiliconThickness/2),         // x half length                                                    
+  // 				  (SiliconSizeX/2.0),         // y half length                                                    
+  // 				  (xpixel_pitch/2.00));      // z half length                                                    
+ 
+  // G4LogicalVolume* stripLogi
+  //   = new G4LogicalVolume(stripSolid,       // Solid                                                                 
+  // 			  SiliconMaterial,             // Material                                                              
+  //                         "Strip_Logical"); // Name                                                                  
+ 
+  // // //G4VPVParameterisation* cellParam = new AntiPTestCellParameterisation();
+
+  // G4VPhysicalVolume* stripPhysi=new G4PVReplica("Cell_Physical",    // Name                                                                 
+  // 			stripLogi,                                                          
+  // 			physiSilicon,                                                        
+  // 			kZAxis,                                                               
+  // 			xpixels,                                                                    
+  // 			1.408*cm/xpixels);         
+  
+  // // //her legges alle cellene inn i silicon volumet
+  // G4VPhysicalVolume* physiStrip=new G4PVReplica("Strip_Physical",    // Name                                                                 
+  // 			cellLogical,                                                          
+  // 			stripPhysi,                                                        
+  // 			kYAxis,                                                               
+  // 			xpixels,                                                                    
+  // 			1.408*cm/xpixels); 
+  
+  
