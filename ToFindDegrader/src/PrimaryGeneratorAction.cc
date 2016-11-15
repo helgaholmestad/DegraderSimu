@@ -82,7 +82,7 @@ PrimaryGeneratorAction::~PrimaryGeneratorAction()
 void PrimaryGeneratorAction::GeneratePrimaries(G4Event* anEvent){
   //set energy and stuff
  
-  //particleGun->SetParticleEnergy(2.3*MeV);
+  particleGun->SetParticleEnergy(2.3*MeV);
   particleGun->SetParticlePosition(G4ThreeVector(-3.5*cm,0,0));
   // //particleGun->SetParticleMomentumDirection(G4ThreeVector(theData[eventNumber][6],theData[eventNumber][4],theData[eventNumber][8]));
   // //particleGun->SetParticlePosition(G4ThreeVector(,0,10*cm));
